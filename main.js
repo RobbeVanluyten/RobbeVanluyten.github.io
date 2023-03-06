@@ -17,11 +17,11 @@
 
 import "./style.css";
 
-import * as THREE from "./three";
-import { OrbitControls } from "./three/examples/jsm/controls/OrbitControls.js";
-import { ARButton } from "./three/addons/webxr/ARButton.js";
+import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { ARButton } from "three/addons/webxr/ARButton.js";
 import CasualFlapMapImageUrl from "./CasualFlatMap.png";
-import { GLTFLoader } from './three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 let camera, scene, renderer, controls;
 let controller;
